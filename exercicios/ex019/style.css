@@ -1,0 +1,42 @@
+@charset "UTF8";
+
+
+body {
+    background-color: rgb(214, 207, 219);
+}
+
+h1#principal {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+.title {
+    color: rgb(48, 12, 82);
+}
+
+h2 {
+    color: rgb(9, 75, 53);
+}
+
+.basic {
+    color: green;
+}
+
+.inter {
+    color: rgb(173, 173, 70);
+}
+
+.avan {
+    color: blue;
+}
+
+p {
+    color: brown;
+}
+
+.txt {
+    text-align: justify;
+}

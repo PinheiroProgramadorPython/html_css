@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 020 Links com Pseudo Class</title>
+    <style>
+        /* 
+        # = id no css
+        . = class no css
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+
+        body {
+            background-color: rgb(233, 169, 123);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::after {
+            content: " ✈";
+        }
+
+        a::before {
+            content: "✓ ";
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Links com Pseudo Class</h1>
+    <ul>
+        <li>
+            <a href="https://www.youtube.com/@PinheiroProgamadorPython" rel="external" target="_blank">Pinheiro
+                Programador Python no YouTube</a>
+        </li>
+        <li>
+            <a href="https://github.com/PinheiroProgramadorPython" rel="external" target="_blank">Pinheiro Programador
+                Python no GitHub</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/pinheiro-programador-python/" rel="external" target="_blank">Pinheiro
+                Programador
+                Python no Linkedin</a>
+        </li>
+    </ul>
+
+
+</body>
+
+</html>

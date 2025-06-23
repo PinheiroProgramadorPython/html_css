@@ -22,3 +22,8 @@
 <a href="exercicios/ex019/index.html" target="_blank">Exercicio 19</a>
 <a href="exercicios/ex020/index.html" target="_blank">Exercicio 20</a>
 <a href="exercicios/ex021/index.html" target="_blank">Exercicio 21</a>
+<a href="exercicios/ex022/fundo03.html.html" target="_blank">Exercicio 22</a>
+<a href="desafios/desafio 005/desafio 005.html" target="_blank">Desafio 5</a>
+<a href="desafios/desafio 006/desafio 006.html" target="_blank">Desafio 6</a>
+<a href="desafios/desfio 009/desafio 009.html" target="_blank">Desafio 9</a>
+<a href="desafios/desafio-010/android.html" target="_blank">Desafio 10</a>

@@ -7,6 +7,7 @@
     <title>Ex 022 Tamanho Fundos de Imagens</title>
     <style>
         body {
+            position: relative;
             height: 100vh;
             background-color: blueviolet;
             background-image: url(imagens/wallpaper002.jpg);
@@ -37,28 +38,42 @@
             padding: 10px;
         }
 
-        div {
+        section {
+            background-color: blueviolet;
+            position: relative;
             margin: auto;
             width: 400px;
+            height: 200px;
             padding: 10px;
             margin-top: 10px;
-            background-color: black;
-            border: 1px solid blueviolet;
+            border: 1px solid black;
             border-radius: 20px;
         }
 
-        img {
-            width: 100%;
-            height: 100%;
+        article {
+            border-radius: 20px;
+            background-image: url(imagens/neo-matrix.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
 
         nav {
-            margin: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 1200%);
             width: 400px;
             display: flex;
             background-color: white;
             margin: auto;
-            gap: 20px;
+            gap: 15px;
+            margin-bottom: 20px;
         }
     </style>
 
@@ -76,9 +91,11 @@
         <p>Se tomar a Pilula Azul vai acordar na sua Cama tranquilo e tudo vai parecer como um Sonho...Se tomar a Pilula
             Vermelha: vai entrar num mundo de êxtase... e Eu vou lhe mostrar até aonde vai a toca do Coelho! </p>
     </main>
-    <div>
-        <img src="imagens/neo-matrix.jpg" alt="neo-matrix">
-    </div>
+    <section>
+        <article>
+
+        </article>
+    </section>
     <nav>
         <a href="fundos01.html">Pagina 1</a>
         <a href="fundo02.html">Pagina 2</a>
@@ -86,6 +103,7 @@
         <a href="fundo04.html">Pagina 4</a>
         <a href="fundo05.html">Pagina 5</a>
         <a href="fundo06.html">Pagina 6</a>
+        <a href="fundo07.html">Pagina 7</a>
     </nav>
 </body>
 

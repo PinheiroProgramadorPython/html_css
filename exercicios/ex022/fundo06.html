@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 022 Tamanho Fundos de Imagens</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: blueviolet;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+
+            /* Shorthand do background-image: color > image > position > repeat > [size] > attachment*/
+
+            background-image: blueviolet, url(imagens/wallpaper002.jpg), center center, no-repeat, cover, fixed;
+        }
+
+        main {
+            width: 400px;
+            background-color: white;
+            margin: auto;
+            border: 1px solid blueviolet;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            padding: 10px;
+        }
+
+        div {
+            margin: auto;
+            width: 400px;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: black;
+            border: 1px solid blueviolet;
+            border-radius: 20px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        nav {
+            margin: auto;
+            width: 400px;
+            display: flex;
+            background-color: white;
+            margin: auto;
+            gap: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <h1>Vc quer Saber oque é Matrix Neo</h1>
+        <p>Matrix é Controle...Matrix é um Mundo irreal criado por Computadores para que Vc não perceba a Verdade: que
+            Verdade?</p>
+        <p>Que você é um Escravo Neo! Como todo Mundo você nasceu numa prisão que não ver , sentir ou cheirar, é uma
+            Prisão para a sua Mente!</p>
+        <p>Infelizmente não se Consegue Explicar oque é Matrix, é preciso que veja por si Mesmo!</p>
+        <p>Se tomar a Pilula Azul vai acordar na sua Cama tranquilo e tudo vai parecer como um Sonho...Se tomar a Pilula
+            Vermelha: vai entrar num mundo de êxtase... e Eu vou lhe mostrar até aonde vai a toca do Coelho! </p>
+    </main>
+    <div>
+        <img src="imagens/neo-matrix.jpg" alt="neo-matrix">
+    </div>
+    <nav>
+        <a href="fundos01.html">Pagina 1</a>
+        <a href="fundo02.html">Pagina 2</a>
+        <a href="fundo03.html">Pagina 3</a>
+        <a href="fundo04.html">Pagina 4</a>
+        <a href="fundo05.html">Pagina 5</a>
+        <a href="fundo06.html">Pagina 6</a>
+    </nav>
+</body>
+
+</html>

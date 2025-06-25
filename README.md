@@ -27,4 +27,4 @@
 <a href="desafios/desafio 006/desafio 006.html" target="_blank">Desafio 6</a>
 <a href="desafios/desfio 009/desafio 009.html" target="_blank">Desafio 9</a>
 <a href="desafios/desafio-010/android.html" target="_blank">Desafio 10</a>
-<a href="" target="_blank">Desafio 12</a>
+<a href="desafios/desafio-012/index.html" target="_blank">Desafio 12</a>

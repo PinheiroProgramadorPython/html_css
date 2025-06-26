@@ -20,7 +20,15 @@
         table {
             margin: auto;
             border-collapse: collapse;
-            width: 40vw;
+            width: 60vw;
+        }
+
+        tbody>tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tbody>tr:nth-child(even) {
+            background-color: lightgrey;
         }
 
         th,
@@ -42,9 +50,13 @@
         div {
             text-align: center;
             background-color: white;
-            width: 40vw;
+            width: 30vw;
             margin: auto;
             padding: 5px;
+        }
+
+        a {
+            text-decoration: none;
         }
     </style>
 </head>

@@ -11,9 +11,16 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        h1 {
+            width: 40vw;
+            background-color: white;
+            margin: auto;
+        }
+
         table {
+            margin: auto;
             border-collapse: collapse;
-            width: 80vw;
+            width: 40vw;
         }
 
         th,
@@ -24,17 +31,34 @@
         .numero {
             text-align: right;
         }
+
+        caption {
+            background-color: rgba(137, 43, 226, 0.377);
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        div {
+            text-align: center;
+            background-color: white;
+            width: 40vw;
+            margin: auto;
+            padding: 5px;
+        }
     </style>
 </head>
 
 <body>
     <h1>Trabalhando com Tabelas Grandes</h1>
+    <br>
     <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
         <thead>
             <tr>
-                <th> </th>
-                <th>Unidade-Federativa</th>
-                <th>População</th>
+                <th scope="col" style="width: 2vw;"> </th>
+                <th scope="col">Unidade-Federativa</th>
+                <th scope="col" style="width: 10vw;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -175,11 +199,15 @@
             </tr>
         </tbody>
         <tfoot>
-            <th> </th>
-            <th>Total</th>
+            <th scope="row"> </th>
+            <th scope="row">Total de Habitantes no Brasil</th>
             <td class="numero">212 583 750</td>
         </tfoot>
     </table>
+    <br>
+    <div>
+        <a href="tabela01.html">Clique Aqui para voltar a Tabela 01</a>
+    </div>
     <br>
 </body>
 

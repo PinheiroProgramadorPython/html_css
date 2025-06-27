@@ -4,37 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex 023 Tabelas</title>
+    <title>Ex 023 Spam nas Tabelas</title>
     <style>
         body {
-            background-color: rgb(44, 243, 243);
-        }
-
-        h1 {
-            margin: auto;
-            padding: 10px;
-            background-color: white;
-            width: 78vw;
-            text-align: center;
-            margin-bottom: 20px;
+            background-color: blueviolet;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         table {
+            width: 80vh;
+            height: 200px;
+            background-color: white;
             margin: auto;
-            width: 80vw;
-            height: 250px;
             border-collapse: collapse;
         }
 
-        tr {
-            background-color: white;
-        }
-
         td {
-            padding: 10px;
             border: 1px solid black;
             text-align: center;
-            vertical-align: top;
             font-weight: bold;
         }
 
@@ -61,31 +48,29 @@
 </head>
 
 <body>
-    <h1>Construindo Tabelas</h1>
     <table>
         <tr>
-            <td>A1</td>
-            <td>B1</td>
-            <td>C1</td>
+            <td>A</td>
+            <td colspan="2">B - C</td>
         </tr>
         <tr>
-            <td>A2</td>
-            <td>B2</td>
-            <td>C2</td>
+            <td rowspan="2">D</td>
+            <td>E</td>
+            <td>F</td>
         </tr>
         <tr>
-            <td>A3</td>
-            <td>B3</td>
-            <td>C4</td>
+            <td>G - H</td>
+            <td>I</td>
         </tr>
     </table>
     <br>
     <div>
-        <a href="tabela02.html">Clique Aqui para ver a Tabela 02</a>
+        <a href="tabela02.html">Clique Aqui para voltar a Tabela 02</a>
         <br>
-        <a href="tabela03.html">Clique Aqui para ver a Tabela 03</a>
+        <a href="tabela01.html">Clique Aqui para voltar a Tabela 01</a>
         <br>
     </div>
+    <br>
 </body>
 
 </html>

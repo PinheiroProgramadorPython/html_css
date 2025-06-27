@@ -30,3 +30,4 @@
 <a href="desafios/desafio-010/android.html" target="_blank">Desafio 10</a>
 <a href="desafios/desafio-012/index.html" target="_blank">Desafio 12</a>
 <a href="desafios/desafio-013/tabela01.html" target="_blank">Desafio 13</a>
+<a href="desafios/desafio-014/tabela.html" target="_blank">Desafio 14</a>

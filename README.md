@@ -24,6 +24,7 @@
 <a href="exercicios/ex021/index.html" target="_blank">Exercicio 21</a>
 <a href="exercicios/ex022/fundo06.html" target="_blank">Exercicio 22</a>
 <a href="exercicios/ex023/tabela01.html" target="_blank">Exercicio 23</a>
+<a href="exercicios/ex024/iframe.html" target="_blank">Exercicio 24</a>
 <a href="desafios/desafio 005/desafio 005.html" target="_blank">Desafio 5</a>
 <a href="desafios/desafio 006/desafio 006.html" target="_blank">Desafio 6</a>
 <a href="desafios/desfio 009/desafio 009.html" target="_blank">Desafio 9</a>

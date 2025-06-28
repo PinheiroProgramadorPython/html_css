@@ -4,8 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex 024 iframe</title>
+    <title>Ex 024 iframe 5</title>
     <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: wheat;
+        }
+
+        iframe {
+            width: 80vw;
+        }
+
         div {
             text-align: center;
             background-color: white;
@@ -29,19 +38,8 @@
 </head>
 
 <body>
-    <h1>
-        Aprendendo iframe
-    </h1>
-    <p>
-        Acessando o site do curso em Video <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe> e
-        Aprendendo a Programar
-    </p>
-    <h2>Vamos tentar acessar outro site usando iframe</h2>
-    <br>
-    <p>
-        Vamos tentar assistir o Canal da Globo <iframe src="http://vouver.me/index.php?page=homepage" frameborder="0"><a
-                href="http://vouver.me/index.php?page=homepage"></a></iframe>
-    </p>
+    <h1>Executando Scripts no Iframe</h1>
+    <iframe src="paginas/script.html" sandbox="allow-scripts" referrerpolicy="no-referer"></iframe>
     <br>
     <div>
         <a href="iframe.html">Clique Aqui para ver o iframe 01</a>

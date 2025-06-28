@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 024 iframe</title>
+    <style>
+        body {
+            background-color: wheat;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 80vw;
+            height: 500px;
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Colocando sua Pagina dentro do iframe</h1>
+    <br>
+    <p>
+        To gostando muito desse conteudo do Capitulo 22, iframe parece ser muito interessante, isso me deu uma grande
+        idéia , espero conseguir coloca-la em pratica!
+    </p>
+    <p>
+        Eu só preciso aprender mais sobre iframes, e conseguir passar pelos obstaculos de exibição de alguns sites
+    </p>
+    <h2>Escolha uma opção de Pagina para ser Exibida na Tela do iframe</h2>
+    <br>
+    <ul>
+        <li>
+            <a href="paginas/ex012/index.html" target="iframe">Carregando Videos do Exercício 12</a>
+        </li>
+        <li>
+            <a href="paginas/ex023/tabela02.html" target="iframe">Tabela 02 do Exercício 23</a>
+        </li>
+        <li>
+            <a href="paginas/desfio 009/desafio 009.html" target="iframe">Desafio 09</a>
+        </li>
+    </ul>
+    <br>
+    <iframe srcdoc="<h1>Escolha uma das Opções Acima</h1>
+        <p>Para carregar aqui na Tela</p>" frameborder="1" name="iframe">
+    </iframe>
+</body>
+
+</html>

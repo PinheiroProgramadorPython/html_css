@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 025 Formulários</title>
+</head>
+<body>
+    <h1>Atributos dos Formulários</h1>
+    <br>
+    <form action="cadastro.py" method="post" autocomplete="on">
+        <p>
+            <label for="id_username">Username</label>
+            <input type="text" name="username" id="id_username" autocomplete="username" minlength="6" maxlength="24" size="24" placeholder="nome de usuario" required>
+        </p>
+        <p>
+            <label for="id_senha">Password</label>
+            <input type="password" name="senha" id="id_senha" autocomplete="current-password" minlength="8" maxlength="16" size="16" placeholder="senha 8 caracteres" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

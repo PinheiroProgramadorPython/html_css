@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 025 Formulários</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Varios Tipos de Formulários</h1>
+    <br>
+    <form action="cadastro.py" method="post" autocomplete="on">
+        <p>
+            <label for="id_nome">Nome</label>
+            <input type="text" name="nome" id="id_nome" replaceholder="nome do aluno"      autocomplete="name" required minlength="3" maxlength="30" size="30">
+        </p>
+        <p>
+            <label for="id_media">Média</label>
+            <input type="number" name="media" id="id_media" placeholder="0 a 10" step="0.5" value="5">
+        </p>
+        <p>
+            <label for="id_periodo">Periodo Letivo</label>
+            <input type="date" name="periodo" id="id_periodo" value="2025-07-03">
+        </p>
+        <p>
+            <label for="id_data">Data da Prova</label>
+            <input type="date" name="data" id="id_data" value="2025-07-03">
+        </p>
+        <p>
+            <label for="id_horario">Horário da Prova</label>
+            <input type="time" name="horario" id="id_horario">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

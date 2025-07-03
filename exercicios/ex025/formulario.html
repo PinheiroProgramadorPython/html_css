@@ -14,26 +14,26 @@
 <body>
    <h1>Fazendo Formulários</h1>
    <br>
-   <form>
+   <form autocomplete="off" action="cadastro.py">
     <p>
-        Nome:
-        <input type="text">
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome">
     </p>
     <p>
-        Sobrenome:
-        <input type="text">
+        <label for="isobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="isobrenome">
     </p>
     <p>
-        Idade:
-        <input type="text" name="" id="">
+        <label for="iidade">Idade:</label>
+        <input type="text" name="idade" id="iidade">
     </p>
     <p>
-        Email:
-        <input type="email" name="" id="">
+        <label for="iemail">Email:</label>
+        <input type="email" name="email" id="iemail">
     </p>
     <p>
-        Senha:
-        <input type="password" name="" id="">
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha">
     </p>
     <p>
         <input type="submit" value="Enviar">

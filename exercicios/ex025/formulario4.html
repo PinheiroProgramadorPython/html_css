@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 025 Formularios</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: wheat;
+        }
+
+        div {
+            text-align: center;
+            width: 30vw;
+            height: 200px;
+            margin: auto;
+            padding: 5px;
+            border: 1px solid black;
+            line-height: 2em;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.py" autocomplete="on" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="id_nome">Nome</label>
+                <input type="text" name="nome" id="id_nome" maxlength="30" minlength="5">
+            </p>
+            <p>
+                <label for="id_email">Email</label>
+                <input type="email" name="email" id="id_email" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="id_cel">Celular</label>
+                <input type="tel" name="celular" id="id_cel" autocomplete="tel" placeholder="(xx)xx xxxxx-xxxx" required pattern="^\d(\d{2}\)\d{4,5}-\d{4}$">
+            </p>
+            <p>
+                <label for="id_senha">Senha</label>
+                <input type="password" name="senha" id="id_senha" minlength="6" maxlength="12" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+    <br>
+    <div>
+        <a href="formulario.html">Clique Aqui para ver o Formulário 01</a>
+        <br>
+        <a href="formulario2.html">Clique Aqui para ver o Formulário 02</a>
+        <br>
+        <a href="formulario3.html">Clique Aqui para ver o Formulário 03</a>
+        <br>
+        <a href="formulario4.html">Clique Aqui para ver o Formulário 04</a>
+        <br>
+    </div>
+    <br>
+</body>
+</html>

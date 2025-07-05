@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex 025 Formulários</title>
+    <title>Ex 025 Formularios</title>
     <style>
         *{
             font-family: Arial, Helvetica, sans-serif;
@@ -30,28 +30,34 @@
     </style>
 </head>
 <body>
-    <h1>Varios Tipos de Formulários</h1>
-    <br>
-    <form action="cadastro.py" method="post" autocomplete="on">
+    <form action="cadastro.py" method="post">
         <p>
-            <label for="id_nome">Nome</label>
-            <input type="text" name="nome" id="id_nome" replaceholder="nome do aluno"      autocomplete="name" required minlength="3" maxlength="30" size="30">
+            <label for="id_est">Estado</label>
+            <select name="est" id="id_est">
+                <option value="" selected>---Escolha---</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Parana</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MTS">Mato Grosso do Sul</option>
+                <option value="SA">Santa Catarina</option>
+                <option value="RG">Rio Grande do Sul</option>
+            </select>
         </p>
         <p>
-            <label for="id_media">Média</label>
-            <input type="number" name="media" id="id_media" placeholder="0 a 10" step="0.5" value="5">
+            <label for="id_prof">Profissão</label>
+            <input type="text" name="prof" id="id_prof" list="list_prof">
+            <datalist id="list_prof">
+                <option value="">Programador</option>
+                <option value="">Marcineiro</option>
+                <option value="">Dentista</option>
+                <option value="">Enfermeiro</option>
+            </datalist>
         </p>
         <p>
-            <label for="id_periodo">Periodo Letivo</label>
-            <input type="month" name="periodo" id="id_periodo" value="2025-07">
-        </p>
-        <p>
-            <label for="id_data">Data da Prova</label>
-            <input type="date" name="data" id="id_data" value="2025-07-03">
-        </p>
-        <p>
-            <label for="id_horario">Horário da Prova</label>
-            <input type="time" name="horario" id="id_horario">
+            <label for="id_msg">Mensagem:</label>
+            <textarea name="msg" id="id_msg" cols="30" rows="10"></textarea>
         </p>
         <p>
             <input type="submit" value="Enviar">
@@ -75,6 +81,6 @@
         <a href="formulario7.html">Clique Aqui para ver o Formulário 07</a>
         <br>
     </div>
-    <br>  
+    <br>
 </body>
 </html>

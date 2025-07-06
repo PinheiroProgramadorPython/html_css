@@ -27,6 +27,7 @@ Projetos/Exercicios/Desafios Curso Html/Css do Curso em Video
 <a href="exercicios/ex023/tabela01.html" target="_blank">Exercicio 23</a>
 <a href="exercicios/ex024/iframe.html" target="_blank">Exercicio 24</a>
 <a href="exercicios/ex025/formulario.html" target="_blank">Exercicio 25</a>
+<a href="exercicios/ex026/mq01/index.html" target="_blank">Exercicio 26</a>
 <a href="desafios/desafio 005/desafio 005.html" target="_blank">Desafio 5</a>
 <a href="desafios/desafio 006/desafio 006.html" target="_blank">Desafio 6</a>
 <a href="desafios/desfio 009/desafio 009.html" target="_blank">Desafio 9</a>

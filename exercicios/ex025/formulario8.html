@@ -13,7 +13,7 @@
         div {
             text-align: center;
             width: 30vw;
-            height: 250px;
+            height: 320px;
             margin: auto;
             padding: 5px;
             border: 1px solid black;
@@ -30,25 +30,20 @@
     </style>
 </head>
 <body>
-    <form action="cadastro.py" method="post" autocomplete="on">
-        <fieldset>
-            <legend>Sexo</legend>
-            <label for="id_masc">Masculino</label>
-            <input type="radio" name="sexo" id="id_masc">
-            <label for="id_fem">Feminino</label>
-            <input type="radio" name="sexo" id="id_fem">
-        </fieldset>
-        <fieldset>
-            <legend>Esportes</legend>
-            <label for="id_fut">Futebol</label>
-            <input type="checkbox" name="fut" id="id_fut"><br>
-            <label for="id_basq">Basquete</label>
-            <input type="checkbox" name="basq" id="id_basq"><br>
-            <label for="id_atl">Atletismo</label>
-            <input type="checkbox" name="atl" id="id_atl"><br>
-            <label for="id_vol">Volei</label>
-            <input type="checkbox" name="vol" id="id_vol">           
-        </fieldset>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.py" method="get">
+        <p>
+            <label for="id_n1">1° Numero</label>
+            <input type="number" name="n1" id="id_n1" min="0" max="1000" required oninput="id_soma.innerHTML = Number(id_n1.value) + Number(id_n2.value)">
+        </p>
+        <p>
+            <label for="id_n2">2° Numero</label>
+            <input type="number" name="n2" id="id_n2" min="0" max="1000" required oninput="id_soma.innerHTML = Number(id_n1.value) + Number(id_n2.value)">
+        </p>
+        <p>
+            <label for="id_soma">Soma: </label>
+            <output name="soma" id="id_soma">0</output>
+        </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">

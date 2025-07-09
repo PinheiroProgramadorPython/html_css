@@ -87,6 +87,7 @@ div#formu > form > div > ion-icon{
 
 div#formu > form > div > input{
     height: 40px;
+    border-radius: 10px;
 }
 
 div#formu > form > div > input[type=submit]{

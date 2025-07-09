@@ -6,31 +6,34 @@
     <title>Ex 026 Media Query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaquery.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site Responsivo</h1>
         <i id="id_menu" class="material-symbols-outlined" onclick="clikMenu()">menu</i>
         <menu>
             <ul id="id_list">               
-                <li>
-                    <a href="#">Noticias</a>
-                </li>
-                <li>
-                    <a href="#">Esportes</a>
-                </li>
-                <li>
-                    <a href="#">Curiosidades</a>
-                </li>
-                <li>
-                    <a href="#">Filmes</a>
-                </li>
-                <li>
-                    <a href="#">Series</a>
-                </li>
-                <li>
-                    <a href="#">Canais ao Vivo</a>
-                </li>            
+                <div class="center_menu">
+                    <li>
+                        <a href="#">Noticias</a>
+                    </li>
+                    <li>
+                        <a href="#">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#">Curiosidades</a>
+                    </li>
+                    <li>
+                        <a href="#">Filmes</a>
+                    </li>
+                    <li>
+                        <a href="#">Series</a>
+                    </li>
+                    <li>
+                        <a href="#">Canais ao Vivo</a>
+                    </li>
+                </div>            
             </ul>
         </menu>
     </header>
@@ -56,6 +59,17 @@
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768){
+                id_menu.style.display = "none"
+                id_list.style.display = "flex"
+            } else{
+                id_menu.style.display = "block"
+            }
+        }
+
+
+
         function clikMenu() {
             if (id_list.style.display === "block"){
                 id_list.style.display = "none"

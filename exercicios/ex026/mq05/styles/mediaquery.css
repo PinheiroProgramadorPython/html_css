@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+   #id_menu{
+    display: block;
+   } 
+
+   menu{
+    margin: auto;
+    display: block;
+   }
+
+   menu > ul{
+    margin: 1rem 1rem;
+   }
+
+   menu > ul > div >li {
+    display: inline-block;
+   }
+
+   .center_menu{
+    margin: auto;
+    
+   }
+
+   .center_menu > li > a{
+    margin: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+   }
+
+   .center_menu > li > a:hover{
+        background-color: blueviolet;
+
+   }
+
+}

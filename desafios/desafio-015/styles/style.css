@@ -36,12 +36,14 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 360px;
     height: 600px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 20px black;
+    transition: width 0.3s height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#image{
@@ -57,4 +59,56 @@ section#login > div#image{
 section#login > div#formu{
     display: block;
     padding: 10px;
+    margin: auto;
+}
+
+div#formu > h1{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+div#formu > p{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div#formu > form > div{
+    margin: auto;  
+    margin: 35px 10px;
+    background-color: #602c8271;
+}
+
+div#formu > form > div > ion-icon{
+    color: white;
+   
+    width: 27px;
+}
+
+div#formu > form > div > input{
+    height: 40px;
+}
+
+div#formu > form > div > input[type=submit]{
+    background-color: var(--verde);
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px 5px;
+    display: block;
+}
+
+div#formu > form > div > input[type=submit]:hover{
+    background-color: #602c8293;
+}
+
+.btn{
+    background-color: rgba(243, 242, 240, 0.562);
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    background-color: rgba(0, 0, 255, 0.151);
 }

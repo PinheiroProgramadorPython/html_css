@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaquery.css">
 </head>
 <body>
    <main>
@@ -19,16 +20,28 @@
             </p>
             <form action="" method="post" autocomplete="on">
                 <div>
+                    <ion-icon name="person-sharp"></ion-icon>
+                    <input type="email" name="email" id="id_email" autocomplete="email" placeholder="Seu Email" maxlength="40">
                     <label for="id_email">Email</label>
-                    <input type="email" name="email" id="id_email">
                 </div>
                 <div>
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" name="senha" id="id_senha" autocomplete="current-password" placeholder="Sua Senha" minlength="6" maxlength="30">
                     <label for="id_senha">Senha</label>
-                    <input type="password" name="senha" id="id_senha">
+                </div>
+                <div style="background-color: white;">
+                    <input type="submit" value="Enviar">
+                    <a href="esqueci.html" class="btn">Esqueceu a Senha</a>
                 </div>
             </form>
         </div>
     </section>
-   </main> 
+   </main>
+   <script type="modulo" src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+      
+   </script>
+   <script src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+        
+   </script>
 </body>
 </html>

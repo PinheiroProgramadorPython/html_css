@@ -54,6 +54,8 @@ Projetos/Exercicios/Desafios Curso Html/Css do Curso em Video
 
 <a href="exercicios/ex026/mq01/index.html" target="_blank">Exercicio 26</a>
 
+<a href="exercicios/ex027/flex01/index.html" target="_blank">Exercicio 27</a>
+
 <a href="desafios/desafio 005/desafio 005.html" target="_blank">Desafio 5</a>
 
 <a href="desafios/desafio 006/desafio 006.html" target="_blank">Desafio 6</a>

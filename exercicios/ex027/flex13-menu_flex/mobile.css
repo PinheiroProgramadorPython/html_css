@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.menu{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 1 auto;
+
+}
+
+.item{ 
+    display: flex;  
+    flex-flow: column wrap;
+    flex: 0 1 auto;
+    justify-content: space-around;  
+}
+
+.menu .item > div > h1{
+    font-size: 2rem;
+}
+
+.item > nav{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 auto;
+}
+
+.menu .item > nav > a{
+    width: 250px;
+}

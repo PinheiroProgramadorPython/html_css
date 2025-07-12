@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+body{   
+    
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#cab{
+    display: flex;
+    flex-flow: column wrap; 
+    align-items: center;  
+    background-color: blueviolet;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+#cont{
+    display: flex; 
+    flex-flow: column wrap;   
+    background-color: blueviolet;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;  
+    flex: auto;
+    background-color: wheat;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.item{ 
+    display: flex;  
+    flex-flow: row wrap; 
+}
+
+.menu .item nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .item h1{
+    text-align: center;
+    margin: 1rem;
+    font-size: x-large;
+    color: blueviolet;   
+}
+
+.menu .item nav a{
+    text-decoration: none; 
+    margin: 1rem;
+    font-size: larger; 
+    color: blueviolet;
+    text-align: center; 
+}
+
+.menu .item nav a:hover{
+    background-color: white;
+    text-decoration: underline; 
+    transition: background-color .5s;   
+}
+
+.home{
+    flex: auto;
+    margin: 1rem;
+    background-color: wheat;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.home h2{
+    text-align: center;
+    font-size: x-large;
+    color: blueviolet;
+    margin: 2rem;
+}
+
+.home p{
+    text-align: center;
+    margin: 2rem;
+}
+
+.planos{
+    flex: auto;
+    background-color: wheat;
+    margin: 1rem;padding: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.planos h2{
+    font-size: x-large;
+    text-align: center;
+    color: blueviolet;
+}
+
+.planos p{
+    text-align: center;
+    margin: 2rem;
+}

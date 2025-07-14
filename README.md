@@ -76,4 +76,4 @@ Projetos/Exercicios/Desafios Curso Html/Css do Curso em Video
 
 <a href="desafios/desafio-015/index.html" target="_blank">Desafio-15 Projeto Pagina Login</a>
 
-<a href="desafios/desafio-016/index.html" target="_blank">Desafio-16 Projeto Pagina Login</a>
+<a href="desafios/desafio-016/index.html" target="_blank">Desafio-16 Projeto GridLayout</a>
